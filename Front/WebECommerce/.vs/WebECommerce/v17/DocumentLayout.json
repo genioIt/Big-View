@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Juan\\Documentos_laborales\\Proyectos\\Bigview\\WebApiECommerce\\FrontEnd\\WebECommerce\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22801F37-C8C9-4714-B0D8-749374CC719E}|BlazorUserManagement\\BlazorUserManagement.csproj|c:\\juan\\documentos_laborales\\proyectos\\bigview\\webapiecommerce\\frontend\\webecommerce\\blazorusermanagement\\pages\\categories.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22801F37-C8C9-4714-B0D8-749374CC719E}|BlazorUserManagement\\BlazorUserManagement.csproj|solutionrelative:blazorusermanagement\\pages\\categories.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22801F37-C8C9-4714-B0D8-749374CC719E}|BlazorUserManagement\\BlazorUserManagement.csproj|c:\\juan\\documentos_laborales\\proyectos\\bigview\\webapiecommerce\\frontend\\webecommerce\\blazorusermanagement\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22801F37-C8C9-4714-B0D8-749374CC719E}|BlazorUserManagement\\BlazorUserManagement.csproj|solutionrelative:blazorusermanagement\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22801F37-C8C9-4714-B0D8-749374CC719E}|BlazorUserManagement\\BlazorUserManagement.csproj|c:\\juan\\documentos_laborales\\proyectos\\bigview\\webapiecommerce\\frontend\\webecommerce\\blazorusermanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22801F37-C8C9-4714-B0D8-749374CC719E}|BlazorUserManagement\\BlazorUserManagement.csproj|solutionrelative:blazorusermanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22801F37-C8C9-4714-B0D8-749374CC719E}|BlazorUserManagement\\BlazorUserManagement.csproj|c:\\juan\\documentos_laborales\\proyectos\\bigview\\webapiecommerce\\frontend\\webecommerce\\blazorusermanagement\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22801F37-C8C9-4714-B0D8-749374CC719E}|BlazorUserManagement\\BlazorUserManagement.csproj|solutionrelative:blazorusermanagement\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22801F37-C8C9-4714-B0D8-749374CC719E}|BlazorUserManagement\\BlazorUserManagement.csproj|c:\\juan\\documentos_laborales\\proyectos\\bigview\\webapiecommerce\\frontend\\webecommerce\\blazorusermanagement\\models\\cartproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22801F37-C8C9-4714-B0D8-749374CC719E}|BlazorUserManagement\\BlazorUserManagement.csproj|solutionrelative:blazorusermanagement\\models\\cartproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22801F37-C8C9-4714-B0D8-749374CC719E}|BlazorUserManagement\\BlazorUserManagement.csproj|c:\\juan\\documentos_laborales\\proyectos\\bigview\\webapiecommerce\\frontend\\webecommerce\\blazorusermanagement\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22801F37-C8C9-4714-B0D8-749374CC719E}|BlazorUserManagement\\BlazorUserManagement.csproj|solutionrelative:blazorusermanagement\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22801F37-C8C9-4714-B0D8-749374CC719E}|BlazorUserManagement\\BlazorUserManagement.csproj|c:\\juan\\documentos_laborales\\proyectos\\bigview\\webapiecommerce\\frontend\\webecommerce\\blazorusermanagement\\pages\\cart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22801F37-C8C9-4714-B0D8-749374CC719E}|BlazorUserManagement\\BlazorUserManagement.csproj|solutionrelative:blazorusermanagement\\pages\\cart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22801F37-C8C9-4714-B0D8-749374CC719E}|BlazorUserManagement\\BlazorUserManagement.csproj|c:\\juan\\documentos_laborales\\proyectos\\bigview\\webapiecommerce\\frontend\\webecommerce\\blazorusermanagement\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22801F37-C8C9-4714-B0D8-749374CC719E}|BlazorUserManagement\\BlazorUserManagement.csproj|solutionrelative:blazorusermanagement\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22801F37-C8C9-4714-B0D8-749374CC719E}|BlazorUserManagement\\BlazorUserManagement.csproj|c:\\juan\\documentos_laborales\\proyectos\\bigview\\webapiecommerce\\frontend\\webecommerce\\blazorusermanagement\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22801F37-C8C9-4714-B0D8-749374CC719E}|BlazorUserManagement\\BlazorUserManagement.csproj|solutionrelative:blazorusermanagement\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Juan\\Documentos_laborales\\Proyectos\\Bigview\\WebApiECommerce\\FrontEnd\\WebECommerce\\BlazorUserManagement\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "BlazorUserManagement\\Services\\CartService.cs",
+              "ToolTip": "C:\\Juan\\Documentos_laborales\\Proyectos\\Bigview\\WebApiECommerce\\FrontEnd\\WebECommerce\\BlazorUserManagement\\Services\\CartService.cs",
+              "RelativeToolTip": "BlazorUserManagement\\Services\\CartService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAASwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T08:18:54.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Juan\\Documentos_laborales\\Proyectos\\Bigview\\WebApiECommerce\\FrontEnd\\WebECommerce\\BlazorUserManagement\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorUserManagement\\Program.cs",
+              "ToolTip": "C:\\Juan\\Documentos_laborales\\Proyectos\\Bigview\\WebApiECommerce\\FrontEnd\\WebECommerce\\BlazorUserManagement\\Program.cs",
+              "RelativeToolTip": "BlazorUserManagement\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T08:01:46.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Juan\\Documentos_laborales\\Proyectos\\Bigview\\WebApiECommerce\\FrontEnd\\WebECommerce\\BlazorUserManagement\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "BlazorUserManagement\\Models\\Product.cs",
+              "ToolTip": "C:\\Juan\\Documentos_laborales\\Proyectos\\Bigview\\WebApiECommerce\\FrontEnd\\WebECommerce\\BlazorUserManagement\\Models\\Product.cs",
+              "RelativeToolTip": "BlazorUserManagement\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T08:01:32.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartProduct.cs",
+              "DocumentMoniker": "C:\\Juan\\Documentos_laborales\\Proyectos\\Bigview\\WebApiECommerce\\FrontEnd\\WebECommerce\\BlazorUserManagement\\Models\\CartProduct.cs",
+              "RelativeDocumentMoniker": "BlazorUserManagement\\Models\\CartProduct.cs",
+              "ToolTip": "C:\\Juan\\Documentos_laborales\\Proyectos\\Bigview\\WebApiECommerce\\FrontEnd\\WebECommerce\\BlazorUserManagement\\Models\\CartProduct.cs",
+              "RelativeToolTip": "BlazorUserManagement\\Models\\CartProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T08:01:23.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Juan\\Documentos_laborales\\Proyectos\\Bigview\\WebApiECommerce\\FrontEnd\\WebECommerce\\BlazorUserManagement\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "BlazorUserManagement\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Juan\\Documentos_laborales\\Proyectos\\Bigview\\WebApiECommerce\\FrontEnd\\WebECommerce\\BlazorUserManagement\\Models\\CartItem.cs",
+              "RelativeToolTip": "BlazorUserManagement\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T08:01:17.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cart.razor",
+              "DocumentMoniker": "C:\\Juan\\Documentos_laborales\\Proyectos\\Bigview\\WebApiECommerce\\FrontEnd\\WebECommerce\\BlazorUserManagement\\Pages\\Cart.razor",
+              "RelativeDocumentMoniker": "BlazorUserManagement\\Pages\\Cart.razor",
+              "ToolTip": "C:\\Juan\\Documentos_laborales\\Proyectos\\Bigview\\WebApiECommerce\\FrontEnd\\WebECommerce\\BlazorUserManagement\\Pages\\Cart.razor",
+              "RelativeToolTip": "BlazorUserManagement\\Pages\\Cart.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T07:31:56.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Categories.razor",
+              "DocumentMoniker": "C:\\Juan\\Documentos_laborales\\Proyectos\\Bigview\\WebApiECommerce\\FrontEnd\\WebECommerce\\BlazorUserManagement\\Pages\\Categories.razor",
+              "RelativeDocumentMoniker": "BlazorUserManagement\\Pages\\Categories.razor",
+              "ToolTip": "C:\\Juan\\Documentos_laborales\\Proyectos\\Bigview\\WebApiECommerce\\FrontEnd\\WebECommerce\\BlazorUserManagement\\Pages\\Categories.razor",
+              "RelativeToolTip": "BlazorUserManagement\\Pages\\Categories.razor",
+              "ViewState": "AgIAADQBAAAAAAAAAAASwDsBAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-24T17:54:04.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Juan\\Documentos_laborales\\Proyectos\\Bigview\\WebApiECommerce\\FrontEnd\\WebECommerce\\BlazorUserManagement\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "BlazorUserManagement\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Juan\\Documentos_laborales\\Proyectos\\Bigview\\WebApiECommerce\\FrontEnd\\WebECommerce\\BlazorUserManagement\\Services\\CategoryService.cs",
+              "RelativeToolTip": "BlazorUserManagement\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T17:12:36.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Juan\\Documentos_laborales\\Proyectos\\Bigview\\WebApiECommerce\\FrontEnd\\WebECommerce\\BlazorUserManagement\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorUserManagement\\Shared\\NavMenu.razor",
+              "ToolTip": "C:\\Juan\\Documentos_laborales\\Proyectos\\Bigview\\WebApiECommerce\\FrontEnd\\WebECommerce\\BlazorUserManagement\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "BlazorUserManagement\\Shared\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-24T17:12:02.326Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
