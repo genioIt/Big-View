@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlazorUserManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+815fd7057c75302d139b0e43705304e6438e9393")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd64e930c3a63bc4d25aae7b86ff9f0a9b7bfae5")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlazorUserManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlazorUserManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

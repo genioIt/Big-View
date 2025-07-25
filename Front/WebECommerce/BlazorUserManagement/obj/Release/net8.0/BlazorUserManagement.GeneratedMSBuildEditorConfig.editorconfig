@@ -24,6 +24,42 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Juan/Documentos_laborales/Proyectos/Bigview/Repo/Front/WebECommerce/BlazorUserManagement/Pages/Cart.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Juan/Documentos_laborales/Proyectos/Bigview/Repo/Front/WebECommerce/BlazorUserManagement/Pages/Categories.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Juan/Documentos_laborales/Proyectos/Bigview/Repo/Front/WebECommerce/BlazorUserManagement/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Juan/Documentos_laborales/Proyectos/Bigview/Repo/Front/WebECommerce/BlazorUserManagement/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Juan/Documentos_laborales/Proyectos/Bigview/Repo/Front/WebECommerce/BlazorUserManagement/Pages/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Juan/Documentos_laborales/Proyectos/Bigview/Repo/Front/WebECommerce/BlazorUserManagement/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Juan/Documentos_laborales/Proyectos/Bigview/Repo/Front/WebECommerce/BlazorUserManagement/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-fxpv73l9ok
+
+[C:/Juan/Documentos_laborales/Proyectos/Bigview/Repo/Front/WebECommerce/BlazorUserManagement/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-4785raw6cg
+
+[C:/Juan/Documentos_laborales/Proyectos/Bigview/Repo/Front/WebECommerce/BlazorUserManagement/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Juan/Documentos_laborales/Proyectos/Bigview/Repo/Front/WebECommerce/BlazorUserManagement/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
