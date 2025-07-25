@@ -1,0 +1,158 @@
+﻿@page "/"
+@using BlazorUserManagement.Models
+@using BlazorUserManagement.Services
+@inject CategoryService CategoryService
+
+<PageTitle>La Tienda de Don Juan</PageTitle>
+
+<div class="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+    <!-- Hero Section -->
+    <div class="flex flex-col items-center justify-center py-20">
+        <!-- Logo/Imagen Principal -->
+        <div class="mb-8">
+            <div class="w-64 h-64 bg-white rounded-full shadow-2xl flex items-center justify-center border-4 border-indigo-200">
+                <div class="text-center">
+                    <svg class="w-24 h-24 mx-auto text-indigo-600 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+                    </svg>
+                    <h1 class="text-2xl font-bold text-indigo-800">La Tienda</h1>
+                    <h2 class="text-xl font-semibold text-indigo-600">de Don Juan</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Título Principal -->
+        <h1 class="text-5xl font-bold text-gray-800 mb-4 text-center">Bienvenido a La Tienda de Don Juan</h1>
+        <p class="text-xl text-gray-600 mb-12 text-center max-w-2xl">
+            Descubre los mejores productos con la calidad y confianza que nos caracteriza. 
+            Tu tienda de confianza desde siempre.
+        </p>
+
+        <!-- Botones de Acción -->
+        <div class="flex flex-col sm:flex-row gap-4">
+            <a href="/login" class="bg-indigo-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition-colors shadow-lg">
+                Iniciar Sesión
+            </a>
+            <a href="/register" class="bg-white text-indigo-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-50 transition-colors shadow-lg border-2 border-indigo-600">
+                Registrarse
+            </a>
+        </div>
+    </div>
+
+    <!-- Sección de Categorías -->
+    <div class="max-w-6xl mx-auto px-4 py-16">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">Explora Nuestras Categorías</h2>
+            <p class="text-lg text-gray-600">Encuentra exactamente lo que buscas en nuestras categorías especializadas</p>
+        </div>
+
+        @if (isLoadingCategories)
+        {
+            <!-- Loading State para Categorías -->
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                @for (int i = 0; i < 8; i++)
+                {
+                    <div class="bg-white rounded-lg shadow-md p-6 animate-pulse">
+                        <div class="w-12 h-12 bg-gray-200 rounded-full mx-auto mb-4"></div>
+                        <div class="h-4 bg-gray-200 rounded w-3/4 mx-auto mb-2"></div>
+                        <div class="h-3 bg-gray-200 rounded w-1/2 mx-auto"></div>
+                    </div>
+                }
+            </div>
+        }
+        else if (categories.Any())
+        {
+            <!-- Grid de Categorías -->
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                @foreach (var category in categories)
+                {
+                    <a href="/categories/@category.Id" class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow p-6 text-center group">
+                        <div class="text-indigo-600 mb-4 group-hover:text-indigo-700 transition-colors">
+                            <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2 group-hover:text-indigo-700 transition-colors">@category.Name</h3>
+                        <p class="text-sm text-gray-600">@category.Description</p>
+                    </a>
+                }
+            </div>
+        }
+        else
+        {
+            <!-- Estado cuando no hay categorías -->
+            <div class="text-center py-12">
+                <svg class="w-16 h-16 mx-auto text-gray-400 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+                </svg>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">No hay categorías disponibles</h3>
+                <p class="text-gray-600">Las categorías se cargarán pronto. Vuelve a intentarlo más tarde.</p>
+            </div>
+        }
+    </div>
+
+    <!-- Sección de Características -->
+    <div class="max-w-6xl mx-auto px-4 py-16">
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white rounded-lg shadow-lg p-6 text-center hover:shadow-xl transition-shadow">
+                <div class="text-green-600 mb-4">
+                    <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-3">Calidad Garantizada</h3>
+                <p class="text-gray-600">Productos de la más alta calidad seleccionados especialmente para ti.</p>
+            </div>
+            
+            <div class="bg-white rounded-lg shadow-lg p-6 text-center hover:shadow-xl transition-shadow">
+                <div class="text-blue-600 mb-4">
+                    <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"></path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-3">Mejores Precios</h3>
+                <p class="text-gray-600">Precios competitivos y ofertas especiales para nuestros clientes.</p>
+            </div>
+            
+            <div class="bg-white rounded-lg shadow-lg p-6 text-center hover:shadow-xl transition-shadow">
+                <div class="text-purple-600 mb-4">
+                    <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-3">Entrega Rápida</h3>
+                <p class="text-gray-600">Servicio de entrega eficiente para que recibas tus productos a tiempo.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private List<ProductCategory> categories = new List<ProductCategory>();
+    private bool isLoadingCategories = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadCategories();
+    }
+
+    private async Task LoadCategories()
+    {
+        isLoadingCategories = true;
+        StateHasChanged();
+
+        try
+        {
+            categories = await CategoryService.GetAllActiveCategoriesAsync();
+        }
+        catch (Exception)
+        {
+            categories = new List<ProductCategory>();
+        }
+        finally
+        {
+            isLoadingCategories = false;
+            StateHasChanged();
+        }
+    }
+}

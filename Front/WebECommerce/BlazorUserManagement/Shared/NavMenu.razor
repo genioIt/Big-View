@@ -1,0 +1,97 @@
+﻿<div class="flex space-x-4">
+    <NavLink class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100" href="" Match="NavLinkMatch.All">
+        Inicio
+    </NavLink>
+    
+   @*  <!-- Dropdown de Categorías -->
+    <div class="relative" @onmouseenter="ShowDropdown" @onmouseleave="HideDropdown">
+        <button class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100 flex items-center">
+            <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+            </svg>
+            Categorías
+            <svg class="w-4 h-4 ml-1 transition-transform @(showDropdown ? "rotate-180" : "")" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+        </button>
+        
+        @if (showDropdown)
+        {
+            <div class="absolute left-0 mt-2 w-56 bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 z-50">
+                <div class="py-1">
+                    <a href="/categories/novedades" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 font-medium bg-gray-50">
+                        Novedades
+                    </a>
+                    <a href="/categories/ofertas" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
+                        Ofertas
+                    </a>
+                    <a href="/categories/ropa-mujer" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
+                        Ropa de mujer
+                    </a>
+                    <a href="/categories/trajes-bano" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
+                        Trajes de baño
+                    </a>
+                    <a href="/categories/curvy" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
+                        Curvy
+                    </a>
+                    <a href="/categories/ninos" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
+                        Niños
+                    </a>
+                    <a href="/categories/ropa-hombre" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
+                        Ropa para hombre
+                    </a>
+                    <a href="/categories/ropa-interior" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
+                        Ropa interior y ropa para dormir
+                    </a>
+                    <a href="/categories/bisuteria" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
+                        Bisutería y accesorios
+                    </a>
+                    <a href="/categories/zapatos" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
+                        Zapatos
+                    </a>
+                    <a href="/categories/hogar" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
+                        Hogar y cocina
+                    </a>
+                    <a href="/categories/deportes" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
+                        Deportes & exteriores
+                    </a>
+                </div>
+            </div>
+        }
+    </div> *@
+    
+    <NavLink class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100" href="login">
+        Iniciar Sesión
+    </NavLink>
+    <NavLink class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100" href="register">
+        Registro
+    </NavLink>
+    <NavLink class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100 flex items-center" href="cart">
+        <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-1.1 5H17M9 19.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM20.5 19.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"></path>
+        </svg>
+        Carrito
+    </NavLink>
+</div>
+
+@code {
+    private bool collapseNavMenu = true;
+    private bool showDropdown = false;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+
+    private void ShowDropdown()
+    {
+        showDropdown = true;
+    }
+
+    private void HideDropdown()
+    {
+        showDropdown = false;
+    }
+}
