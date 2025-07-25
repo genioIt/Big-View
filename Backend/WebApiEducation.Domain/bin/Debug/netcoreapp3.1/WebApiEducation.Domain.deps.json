@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "WebApiEducation.Domain/1.0.0": {
+        "runtime": {
+          "WebApiEducation.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebApiEducation.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
