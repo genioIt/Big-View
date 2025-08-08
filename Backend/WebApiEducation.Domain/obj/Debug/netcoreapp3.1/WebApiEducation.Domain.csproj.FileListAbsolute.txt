@@ -1,9 +1,0 @@
-C:\Juan\Documentos_laborales\Proyectos\WebApiEducation\WebApiEducation.Domain\bin\Debug\netcoreapp3.1\WebApiEducation.Domain.deps.json
-C:\Juan\Documentos_laborales\Proyectos\WebApiEducation\WebApiEducation.Domain\bin\Debug\netcoreapp3.1\WebApiEducation.Domain.dll
-C:\Juan\Documentos_laborales\Proyectos\WebApiEducation\WebApiEducation.Domain\bin\Debug\netcoreapp3.1\WebApiEducation.Domain.pdb
-C:\Juan\Documentos_laborales\Proyectos\WebApiEducation\WebApiEducation.Domain\obj\Debug\netcoreapp3.1\WebApiEducation.Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Juan\Documentos_laborales\Proyectos\WebApiEducation\WebApiEducation.Domain\obj\Debug\netcoreapp3.1\WebApiEducation.Domain.AssemblyInfoInputs.cache
-C:\Juan\Documentos_laborales\Proyectos\WebApiEducation\WebApiEducation.Domain\obj\Debug\netcoreapp3.1\WebApiEducation.Domain.AssemblyInfo.cs
-C:\Juan\Documentos_laborales\Proyectos\WebApiEducation\WebApiEducation.Domain\obj\Debug\netcoreapp3.1\WebApiEducation.Domain.csproj.CoreCompileInputs.cache
-C:\Juan\Documentos_laborales\Proyectos\WebApiEducation\WebApiEducation.Domain\obj\Debug\netcoreapp3.1\WebApiEducation.Domain.dll
-C:\Juan\Documentos_laborales\Proyectos\WebApiEducation\WebApiEducation.Domain\obj\Debug\netcoreapp3.1\WebApiEducation.Domain.pdb
