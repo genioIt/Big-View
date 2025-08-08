@@ -1,0 +1,16 @@
+C:\Juan\Documentos_laborales\Proyectos\Bigview\BigView\WebApiECommerce\WebApiECommerce.Infrastructure\bin\Debug\netcoreapp3.1\WebApiEcommerce.Infrastructure.deps.json
+C:\Juan\Documentos_laborales\Proyectos\Bigview\BigView\WebApiECommerce\WebApiECommerce.Infrastructure\bin\Debug\netcoreapp3.1\WebApiEcommerce.Infrastructure.runtimeconfig.json
+C:\Juan\Documentos_laborales\Proyectos\Bigview\BigView\WebApiECommerce\WebApiECommerce.Infrastructure\bin\Debug\netcoreapp3.1\WebApiEcommerce.Infrastructure.runtimeconfig.dev.json
+C:\Juan\Documentos_laborales\Proyectos\Bigview\BigView\WebApiECommerce\WebApiECommerce.Infrastructure\bin\Debug\netcoreapp3.1\WebApiEcommerce.Infrastructure.dll
+C:\Juan\Documentos_laborales\Proyectos\Bigview\BigView\WebApiECommerce\WebApiECommerce.Infrastructure\bin\Debug\netcoreapp3.1\WebApiEcommerce.Infrastructure.pdb
+C:\Juan\Documentos_laborales\Proyectos\Bigview\BigView\WebApiECommerce\WebApiECommerce.Infrastructure\bin\Debug\netcoreapp3.1\WebApiEcommerce.Domain.dll
+C:\Juan\Documentos_laborales\Proyectos\Bigview\BigView\WebApiECommerce\WebApiECommerce.Infrastructure\bin\Debug\netcoreapp3.1\WebApiEcommerce.Domain.pdb
+C:\Juan\Documentos_laborales\Proyectos\Bigview\BigView\WebApiECommerce\WebApiECommerce.Infrastructure\obj\Debug\netcoreapp3.1\WebApiEcommerce.Infrastructure.csproj.AssemblyReference.cache
+C:\Juan\Documentos_laborales\Proyectos\Bigview\BigView\WebApiECommerce\WebApiECommerce.Infrastructure\obj\Debug\netcoreapp3.1\WebApiEcommerce.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Juan\Documentos_laborales\Proyectos\Bigview\BigView\WebApiECommerce\WebApiECommerce.Infrastructure\obj\Debug\netcoreapp3.1\WebApiEcommerce.Infrastructure.AssemblyInfoInputs.cache
+C:\Juan\Documentos_laborales\Proyectos\Bigview\BigView\WebApiECommerce\WebApiECommerce.Infrastructure\obj\Debug\netcoreapp3.1\WebApiEcommerce.Infrastructure.AssemblyInfo.cs
+C:\Juan\Documentos_laborales\Proyectos\Bigview\BigView\WebApiECommerce\WebApiECommerce.Infrastructure\obj\Debug\netcoreapp3.1\WebApiEcommerce.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Juan\Documentos_laborales\Proyectos\Bigview\BigView\WebApiECommerce\WebApiECommerce.Infrastructure\obj\Debug\netcoreapp3.1\WebApiEc.36D26602.Up2Date
+C:\Juan\Documentos_laborales\Proyectos\Bigview\BigView\WebApiECommerce\WebApiECommerce.Infrastructure\obj\Debug\netcoreapp3.1\WebApiEcommerce.Infrastructure.dll
+C:\Juan\Documentos_laborales\Proyectos\Bigview\BigView\WebApiECommerce\WebApiECommerce.Infrastructure\obj\Debug\netcoreapp3.1\WebApiEcommerce.Infrastructure.pdb
+C:\Juan\Documentos_laborales\Proyectos\Bigview\BigView\WebApiECommerce\WebApiECommerce.Infrastructure\obj\Debug\netcoreapp3.1\WebApiEcommerce.Infrastructure.genruntimeconfig.cache
