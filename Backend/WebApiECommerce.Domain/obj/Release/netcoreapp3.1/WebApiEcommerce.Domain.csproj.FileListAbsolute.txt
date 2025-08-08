@@ -1,0 +1,9 @@
+C:\Juan\Documentos_laborales\Proyectos\Bigview\BigView\WebApiECommerce\WebApiECommerce.Domain\bin\Release\netcoreapp3.1\WebApiEcommerce.Domain.deps.json
+C:\Juan\Documentos_laborales\Proyectos\Bigview\BigView\WebApiECommerce\WebApiECommerce.Domain\bin\Release\netcoreapp3.1\WebApiEcommerce.Domain.dll
+C:\Juan\Documentos_laborales\Proyectos\Bigview\BigView\WebApiECommerce\WebApiECommerce.Domain\bin\Release\netcoreapp3.1\WebApiEcommerce.Domain.pdb
+C:\Juan\Documentos_laborales\Proyectos\Bigview\BigView\WebApiECommerce\WebApiECommerce.Domain\obj\Release\netcoreapp3.1\WebApiEcommerce.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Juan\Documentos_laborales\Proyectos\Bigview\BigView\WebApiECommerce\WebApiECommerce.Domain\obj\Release\netcoreapp3.1\WebApiEcommerce.Domain.AssemblyInfoInputs.cache
+C:\Juan\Documentos_laborales\Proyectos\Bigview\BigView\WebApiECommerce\WebApiECommerce.Domain\obj\Release\netcoreapp3.1\WebApiEcommerce.Domain.AssemblyInfo.cs
+C:\Juan\Documentos_laborales\Proyectos\Bigview\BigView\WebApiECommerce\WebApiECommerce.Domain\obj\Release\netcoreapp3.1\WebApiEcommerce.Domain.csproj.CoreCompileInputs.cache
+C:\Juan\Documentos_laborales\Proyectos\Bigview\BigView\WebApiECommerce\WebApiECommerce.Domain\obj\Release\netcoreapp3.1\WebApiEcommerce.Domain.dll
+C:\Juan\Documentos_laborales\Proyectos\Bigview\BigView\WebApiECommerce\WebApiECommerce.Domain\obj\Release\netcoreapp3.1\WebApiEcommerce.Domain.pdb
